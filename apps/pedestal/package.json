@@ -11,8 +11,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@micro-zoe/micro-app": "1.0.0-rc.5",
+    "@types/vue-router": "^2.0.0",
     "ui": "workspace:*",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.13",
+    "vuetify": "^3.6.8"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.7.2",
