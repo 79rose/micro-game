@@ -172,7 +172,7 @@
         height: 100vh;
         justify-content: center;
         align-items: center;
-        width: 85vw;
+        width: 90vw;
         flex-direction: column;
     }
 
