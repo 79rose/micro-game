@@ -133,6 +133,9 @@
         }
     }
     const generateQuestion = () => {
+        if (!comfirmInput(true)) {
+            return;
+        }
         isShow.value = false;
     }
     function comfirmInput(flag = true) {
