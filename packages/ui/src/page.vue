@@ -5,7 +5,17 @@
   const LINKS = [
     {
       title: "八皇后",
-      href: "/games/eight-queens",
+      href: "/games?tab=eight-queens",
+      description: "数据结构小游戏",
+    },
+    {
+      title: "最长子串",
+      href: "/games?tab=longest-subsequence",
+      description: "数据结构小游戏",
+    },
+    {
+      title: "背包问题",
+      href: "/games?tab=bag",
       description: "数据结构小游戏",
     },
   ];
@@ -188,9 +198,21 @@
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(25%, auto));
-    max-width: 100%;
+    /* grid-template-columns: repeat(4, minmax(25%, auto)); */
+    max-width: 20%;
     width: var(--max-width);
+    /* 垂直 */
+    gap: 1rem;
+    margin-top: -22rem;
+    padding: 1rem;
+    margin-left: 0;
+    position: relative;
+    transform: translate(-175%, 0);
+  }
+
+  .grid Card {
+    display: flex;
+    width: 50%;
   }
 
   .card {

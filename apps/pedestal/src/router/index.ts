@@ -15,7 +15,7 @@ const routes = [
       },
       {
         //匹配string类型的参数
-        path: "/games/:id",
+        path: "/games",
         name: "Games",
         component: () => import("../pages/games.vue"),
       },

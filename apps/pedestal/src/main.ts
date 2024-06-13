@@ -20,7 +20,7 @@ const vuetify = createVuetify({
   },
 });
 
-export {};
+// export {};
 
 // microApp.start()
 

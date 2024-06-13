@@ -39,7 +39,7 @@
 
     const router = useRouter();
     onMounted(() => {
-        const { value } = router.currentRoute.value.params;
+        const { value } = router.currentRoute.value.query.tab;
         if (value) {
             tab.value = value as string;
         }
